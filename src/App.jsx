@@ -9,7 +9,9 @@ function App() {
 
   return (
     
-<div>
+<div className={theme === 'light' ? 'bg-c-white' : 'bg-m-dark'}>
+
+  
   <MoonIcon/>
   <HomePage/>
 </div>

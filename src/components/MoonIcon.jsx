@@ -11,7 +11,7 @@ const MoonIcon = () => {
     <div onClick={toggleTheme}>
         {
             theme === 'light' ?
-            <span className='flex items-center space-x-2 gap-2 ' ><IoMoonOutline/><span>Dark Mode</span></span>
+            <span className='flex items-center space-x-2 gap-2 ' ><IoMoonOutline/><span>Light Mode</span></span>
             
             :
             
