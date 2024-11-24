@@ -1,11 +1,11 @@
 import React from 'react'
-import NavBar from './NavBar'
+import Footer from './Footer'
 
 const HomePage = () => {
   return (
     <div>
       {/* Header */}
-  <NavBar/>
+  
 
       {/* Hero Section */}
       <section className="hero bg-cover bg-center text-white p-10 md:p-20" style={{ backgroundImage: 'url(/path/to/your-hero-image.jpg)' }}>
@@ -63,6 +63,7 @@ const HomePage = () => {
 
       {/* Footer */}
 
+     <Footer/>
      <footer className="py-8 bg-gray-800 text-white text-center">
         <p>&copy; 2024 FitnessSite. All Rights Reserved.</p>
         <div className="flex justify-center space-x-6 mt-4">
